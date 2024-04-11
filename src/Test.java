@@ -1,11 +1,16 @@
+import java.util.Scanner;
+
 public class Test {
     public static void main(String[] args){
-        System.out.println("Hello World");
-
-        int x = 100;
-        int y = 200;
-        int sum = x + y;
-        System.out.println(sum);
+        Scanner sc=new Scanner(System.in);
+        System.out.println("================================");
+        for(int i=0;i<3;i++){
+            String s1=sc.next();
+            int x=sc.nextInt();
+            System.out.printf("%-15s%03d%n", s1, x);
+            //Complete this line
+        }
+        System.out.println("================================");
     }
 
 }
